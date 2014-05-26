@@ -1,0 +1,195 @@
+.x-toolbar-dark, .x-tabbar-dark, .x-titlebar-dark {
+/*   background: -webkit-linear-gradient(#444,#111 2%,#111); */
+   background-color: black;
+	} 
+	
+	
+	
+	
+	  a {
+        text-decoration:none;
+        color: white;
+        background-color: blue;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 5px 10px;
+        -webkit-appearance: none;
+        border: 1px solid blue;
+        border-radius: 4px; 
+        background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.5)
+        0%, rgba(255,255,255,0.2) 100%);
+        background-image: -moz-linear-gradient(top, rgba(255,255,255,0.5)
+        0%, rgba(255,255,255,0.2) 100%);
+        box-shadow: 0 1px 1px #333;
+        text-shadow: 0 1px 0 #333;
+         }
+         
+         a:active {         
+          background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0.5)
+          0%, rgba(255,255,255,0.2) 100%);
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+          background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0.5)
+          0%, rgba(255,255,255,0.2) 100%);
+          -moz-tap-highlight-color: rgba(0,0,0,0);
+         
+         }
+         
+         
+         h1, h2, h3 {
+           font-family: 'FranchiseRegular';
+           font-weight: normal;
+           text-transform: uppercase;
+           letter-spacing: 0         	
+         	}
+         	
+         	
+        h1 {
+        	  font-size: 130px;
+        	  line-height: 60px;
+        	  margin-left: -4px;
+        	  color: #444;
+        	  text-shadow: 0 1px 0 #000, 0 3px 4px #666;         	
+        	
+        	} 	
+        	
+        	h2 {
+        		
+        		font-size: 30px;
+            line-height: 22px;
+            color: #444; 
+                 		
+        		}
+        		
+        		
+        	p.intro {
+           font-weight: bold;
+           font-size: 90%;
+           line-height: 26px;        		
+        		}	
+      		
+       .pagina {
+       	color: black;
+       	} 		
+       	
+       	
+       	table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border:white 1px solid;
+  padding: 18px;
+  line-height: 18px;
+  font-size: 16px;
+  
+}
+
+tr {
+  background-color: #c79076; 
+  
+  }
+
+thead tr {
+  background-color: #c79076; 
+  color:white;
+  }
+
+ tr.hell {
+  background-color: #e6dbd4; 
+ 
+  color:black;
+} 
+
+#navigation {
+             width: 250px;
+             font-size: 1.2em;
+             
+             }
+#navigation a {
+               text-decoration:none;
+               letter-spacing: 1px;
+               display: block;
+               padding: 5px 15px;
+               border-bottom: 1px solid white;
+               color: black;
+              }
+
+#navigation a:hover, #navigation a:focus, #navigation a:active {
+            background-color: #c79076;
+            color: #e6dbd4;
+          } 
+          
+   #tabelle {
+     margin-top: 60px;   	
+   	}  
+   	
+   	
+   	.left {
+      float:left;
+      text-align:top;
+      width: 20%;
+      margin-right: 5%;
+      margin-left: 70px;
+     
+}
+
+
+
+form {
+       width: 400px;
+       padding: 20px;
+       margin-left: 25px;
+ /*      background-color: #c79076; 
+       border: 1px solid #ddd; */
+     } 
+
+
+fieldset {
+          width: 350px;
+      /*    background-color: #e6dbd4;
+          border: 1px solid #ddd; */
+          margin: 5px;
+          padding: 10px;
+          
+         }
+
+.buttons  {
+            margin-left: 70px;
+            
+          }
+#textfeld {
+           width: 50%;
+           display: block;
+           border-radius: 4px;
+           border: 1px solid #999;
+           margin-left: 70px;
+           margin-top: 10px;
+           margin-bottom: 10px; 
+          }
+label {
+        cursor:pointer; 
+      
+      }
+      
+     #bild1 {
+     	margin-top: 20px;
+     	margin-left: 30%;
+     	} 
+     
+     #beschreibung {
+     	margin-top: 20px;
+     	margin-left: 30%;
+     	}
+     	
+     	#titel {
+     	margin-top: 20px;
+     	margin-left: 30%;
+     	} 
+     	
+     	
+     	.search {
+     		
+     		margin-top: -110px;
+     		}
